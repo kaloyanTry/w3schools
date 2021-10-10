@@ -10,7 +10,6 @@ const person = {
         car3: "Fiat"
     }
 };
-
 delete person.eyecolor;
 
 let text = "";
