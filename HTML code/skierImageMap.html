@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Ski Freerider Image Maps</h1>
+
+    <p>
+        Click the skier head, the ski, or the flying snowflakes to go to a new page and read more abourt the topic...
+    </p>
+
+    <img src="skier.jpg" alt="Skier, Freerider" usemap="#workmap" width="1246" height="700">
+
+    <map name="workmap">
+        <area shape="rect" coords="680,420,815,450" alt="ski" href="https://en.wikipedia.org/wiki/Ski">
+        <area shape="circle" coords="690,270,30" alt="Head of the skier" href="https://en.wikipedia.org/wiki/Skiing">
+        <area shape="poly" coords="300,170,380,110,607,67,1060,70,1080,250,880,120,570,170" href="https://en.wikipedia.org/wiki/Snowflake" onclick="mySnowFlakes()">
+
+    </map>
+
+    <script>
+        function mySnowFlakes() {
+            alert("You ckicked the snowflakes :)")
+        }
+    </script>
+</body>
+
+</html>
